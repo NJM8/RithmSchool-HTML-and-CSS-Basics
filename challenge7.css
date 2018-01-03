@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#container {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#header {
+	margin: 10px 0px 10px 0px;
+	width: 700px;
+	height: 150px;
+	background-color: seagreen;
+}
+
+#pictures, #descriptions {
+	display: flex;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	margin: 25px;
+}
+
+#one {
+	width: 200px;
+	height: 200px;
+	background-color: goldenrod;
+	margin: 25px;
+}
+
+#two {
+	width: 200px;
+	height: 200px;
+	background-color: firebrick;
+	margin: 25px;
+}
+
+#three {
+	width: 200px;
+	height: 200px;
+	background-color: deepskyblue;
+	margin: 25px;
+}
