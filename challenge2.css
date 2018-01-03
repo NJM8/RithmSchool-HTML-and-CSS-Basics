@@ -1,0 +1,23 @@
+body {
+	background-color: lightblue;
+}
+
+
+#wrap {
+	margin: auto;
+	width: 750px;
+}
+
+p, li {
+	font-size: 18px;
+}
+
+li {
+	text-align: center;
+	list-style: none;
+}
+
+li::first-letter {
+	font-size: 26px;
+	font-weight: bold;
+}
