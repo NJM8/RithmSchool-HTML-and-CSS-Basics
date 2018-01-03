@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 800px;
+	height: 700px;
+	margin: auto
+}
+
+.row {
+	margin: 25px auto;
+
+}
+
+.column {
+	margin: auto;
+	position: absolute;
+	padding-bottom: 25px;
+}
+
+#one {
+	width: 800px;
+	height: 100px;
+	background-color: darkviolet;
+}
+
+#two {
+	width: 250px;
+	height: 500px;
+	background-color: firebrick;
+}
+
+#three {
+	width: 250px;
+	height: 500px;
+	background-color: seagreen;
+	margin-left: 275px;
+}
+
+#four {
+	width: 250px;
+	height: 500px;
+	background-color: goldenrod;
+	margin-left: 550px;
+}
+
+
